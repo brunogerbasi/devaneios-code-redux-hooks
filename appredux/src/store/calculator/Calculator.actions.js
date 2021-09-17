@@ -11,3 +11,10 @@ export function subtract (a, b) {
         payload: [a, b]
     }
 }
+
+export function multiply (a, b) {
+    return {
+        type: 'MULTIPLY',
+        payload: [a, b]
+    }
+}

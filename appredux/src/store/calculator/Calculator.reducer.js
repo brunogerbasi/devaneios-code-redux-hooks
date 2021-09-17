@@ -5,6 +5,9 @@ export default function (state = 0, action){
 
         case 'SUBTRACT':
             return action.payload[0] - action.payload[1]
+
+        case 'MULTIPLY':
+            return action.payload[0] * action.payload[1]
         
         default:
             return state
