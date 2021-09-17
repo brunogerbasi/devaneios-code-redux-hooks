@@ -1,9 +1,8 @@
 import React from 'react';
-
-// import { Container } from './styles';
+import Calculator from '../../components/Calculator/Calculator';
 
 function Home() {
-  return <div />;
+  return <Calculator />;
 }
 
 export default Home;
